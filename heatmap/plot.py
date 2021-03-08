@@ -15,8 +15,6 @@ from matplotlib.colors import Colormap
 from heatmap.providers import PROVIDERS
 from heatmap.utils import get_lat_lon_box
 
-hv.extension("bokeh")
-
 
 def get_tiles(
     width=594,
